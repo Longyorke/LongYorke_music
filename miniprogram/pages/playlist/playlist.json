@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "L-playlist":"/components/playlist/playlist"
+  }
 }
