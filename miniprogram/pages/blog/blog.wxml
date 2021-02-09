@@ -1,2 +1,10 @@
 <!--pages/blog/blog.wxml-->
-<text>pages/blog/blog.wxml</text>
+<text>wx:key demo</text>
+<block wx:for="{{objArr}}" wx:key="id">
+      <view>
+       <checkbox>
+          {{item.name}}
+       </checkbox>
+      </view>
+</block>
+<button bindtap="sort">随机排序</button>

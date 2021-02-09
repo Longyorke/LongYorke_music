@@ -39,7 +39,8 @@
   },
   "appid": "wxfaacfde53b4b2070",
   "projectname": "LongYorke_music",
-  "libVersion": "2.14.1",
+  "libVersion": "2.14.4",
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
   "condition": {
     "plugin": {
       "list": []
@@ -61,6 +62,12 @@
         {
           "name": "pages/playlist/playlist",
           "pathName": "pages/playlist/playlist",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "blog",
+          "pathName": "pages/blog/blog",
           "query": "",
           "scene": null
         }
